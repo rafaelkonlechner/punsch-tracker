@@ -1,0 +1,16 @@
+{
+  "name": "smart-dispo",
+  "authors": [
+    "Rafael Konlechner <rafael.konlechner@student.tuwien.ac.at>"
+  ],
+  "description": "",
+  "main": "app.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "vue": "*",
+    "jquery": "*",
+    "material-design-lite": "*"
+  }
+}
