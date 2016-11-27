@@ -1,4 +1,4 @@
-from node:4-wheezy
+from node:7.2.0-alpine
 
 # Create app directory
 RUN mkdir -p /usr/src/app
@@ -8,10 +8,8 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app/
 RUN npm install
 
-# RUN cd public
-#RUN bower install
-
 # Bundle app source
 COPY . /usr/src/app
+
 EXPOSE 8080
 CMD [ "npm", "start" ]
