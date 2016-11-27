@@ -1,9 +1,13 @@
-header {
-    text-align: center;
+body {
+    margin: 0px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #757575;
+header {
+    background-color: #183D4E;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
 }
 
 img {
@@ -12,17 +16,25 @@ img {
 }
 
 header h1 {
-    font-size: 40px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-family: "Roboto", "Helvetica";
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    font-size: 5vh;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+header h1 b {
+    font-weight: 500;
 }
 
 .mdl-grid {
-    width: 80vw;
+    text-align: center;
+    width: 50vw;
 }
 
 #punsch-score {
-    width: 35vw;
+    margin-top: 5vh;
     height: 30vh;
 }
 
