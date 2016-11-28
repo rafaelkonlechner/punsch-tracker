@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 
 app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public/bower_components'));
 
 var MongoClient = require('mongodb').MongoClient,
     assert = require('assert');
